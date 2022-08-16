@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+  }
+  
+  .mt-100 {
+    margin-top: 100px;
+  }
+  
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #fff;
+  }
+  .logo img {
+    width: 80px;
+  }
+  .logo .navbar-brand {
+    padding: 0px;
+  }
+  .navbar-default .navbar-nav li {
+    padding: 0 10px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #ff4a57;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  .menu-top {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  }
+  .navbar-default {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+  }
+  .navbar-default.menu-shrink {
+    background-color: #fff;
+    box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+    padding: 10px 0;
+    width: 100%;
+    animation: fadeInDown 1s both 0.2s;
+  }
+  
+  .main_banner {
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gray_bg {
+    background: #fff;
+  }
+  
+  .container section .banner_content {
+    position: relative;
+    top: 220px;
+  }
+  .section_padding {
+    position: relative;
+    top: 20px;
+  }
+  .banner_content strong {
+    text-transform: uppercase;
+    color: #ff4a57;
+    font-size: 25px;
+    float: left;
+    width: 100%;
+    font-family: monospace;
+  }
+  .banner_content p {
+    float: left;
+    color: #333;
+    font-size: 15px;
+    font-family: "Roboto Slab";
+  }
+  .pl-0 {
+    padding-left: 0px;
+  }
+  .p0 {
+    padding: 0;
+  }
+  .m0 {
+    margin: 0;
+  }
+  .mr-0 {
+    margin-right: 0;
+  }
+  .banner_social_link {
+    float: left;
+    margin-top: 15px;
+  }
+  
+  .banner_social_link li {
+    display: inline-block;
+  }
+  .banner_social_link li a {
+    color: #ff4a57;
+    border: 1px solid #ff4a57;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    transition: 0.5s;
+  }
+  .banner_social_link li a:hover {
+    background-color: #ff4a57;
+    color: #fff;
+  }
+  .banner-images {
+    margin: 90px 0px 0px 30px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  #about .about_content {
+    padding-left: 50px;
+  }
+  #about .about_content h2 {
+    font-weight: bold;
+  }
+  #about .about_content p {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+    --tw-text-opacity: 1;
+    color: rgba(93, 93, 93, var(--tw-text-opacity));
+    font-family: Modern Era, ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+      Noto Color Emoji;
+  }
+  #brands .row {
+    margin-top: 50px;
+  }
+  #brands .row h2,
+  #contact .row h2 {
+    font-weight: 600;
+    color: #ff4a57;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #brands .row h2 span,
+  #contact .row h2 span {
+    border-bottom: 1.5px solid #ff4a57;
+  }
+  #contact {
+    padding-top: 100px;
+  }
+  #contact form .row {
+    margin: 45px 20px 0px 0px;
+  }
+  #contact form .form-group {
+    margin: 0px;
+  }
+  #contact form .form-group .col-xs-12 {
+    padding-bottom: 10px;
+  }
+  #contact form .form-group input {
+    background: transparent;
+    border-color: #e3e3e3;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  #contact form .form-group textarea {
+    margin-top: 10px;
+  }
+  #contact form .form-group input:focus,
+  #contact form .form-group textarea:focus {
+    border: 1px solid #ff4a57;
+  }
+  #contact form button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    background-color: #ff4a57;
+    color: #fff;
+  }
+  .box p {
+    color: hsl(229, 6%, 66%);
+  }
+  
+  .box {
+    border-radius: 5px;
+    box-shadow: 0px 25px 55px -25px hsl(229, 6%, 66%);
+    padding: 20px 30px;
+    margin: 15px 20px 15px 0px;
+    height: 280px;
+  }
+  .box img {
+    width: 100px;
+    height: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cyan {
+    border-top: 3px solid hsl(180, 62%, 55%);
+  }
+  .red {
+    border-top: 3px solid hsl(0, 78%, 62%);
+  }
+  .blue {
+    border-top: 3px solid hsl(212, 86%, 64%);
+  }
+  .orange {
+    border-top: 3px solid hsl(34, 97%, 64%);
+  }
+  .veryLightGray {
+    border-top: 3px solid hsl(229, 6%, 66%);
+  }
+  .varyDarkBlue {
+    border-top: 3px solid hsl(234, 12%, 34%);
+  }
+  
